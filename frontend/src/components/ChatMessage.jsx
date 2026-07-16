@@ -1,6 +1,6 @@
 import ReactMarkdown from "react-markdown"; 
 
-function ChatMessage({ role, text }) {
+function ChatMessage({ role, text }) { 
 
     const isUser = role === "user";
 
