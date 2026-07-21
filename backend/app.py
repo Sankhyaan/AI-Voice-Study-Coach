@@ -6,7 +6,7 @@ import uuid
 from services.whisper_service import speech_to_text
 
 from fastapi import FastAPI, UploadFile, File
-from fastapi.middleware.cors import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware  
 from fastapi.staticfiles import StaticFiles
 
 from pydantic import BaseModel
