@@ -9,7 +9,7 @@ from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware 
 from fastapi.staticfiles import StaticFiles  
 
-from pydantic import BaseModel
+from pydantic import BaseModel 
 
 import shutil
 
